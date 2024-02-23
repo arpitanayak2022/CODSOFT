@@ -46,17 +46,17 @@ public class Quiz extends JFrame implements ActionListener {
         question.setFont(new Font("Times New Roman", Font.BOLD, 24));
         add(question);
         
-        questions[0][0] = "Which is used to find and fix bugs in the Java programs?";
-        questions[0][1] = "JVM";
-        questions[0][2] = "JDB";
-        questions[0][3] = "JDK";
-        questions[0][4] = "JRE";
+        questions[0][0] = "Who invented Java Programming?";
+        questions[0][1] = "Guido van Rossum";
+        questions[0][2] = "James Gosling";
+        questions[0][3] = "Dennis Ritchie";
+        questions[0][4] = "Bjarne Stroustrup";
         
-        questions[1][0] = "What is the return type of the hashCode() method in the Object class?";
-        questions[1][1] = "int";
-        questions[1][2] = "Object";
-        questions[1][3] = "long";
-        questions[1][4] = "void";
+        questions[1][0] = "Which component is used to compile, debug and execute the java programs?";
+        questions[1][1] = "JRE";
+        questions[1][2] = "JIT";
+        questions[1][3] = "JVM";
+        questions[1][4] = "JDK";
         
         questions[2][0] = "Which package contains the Random class?";
         questions[2][1] = "java.util package";
@@ -76,17 +76,17 @@ public class Quiz extends JFrame implements ActionListener {
         questions[4][3] = "Random storage space";
         questions[4][4] = "Heap memory";
         
-        questions[5][0] = "Which of the following is a marker interface?";
-        questions[5][1] = "Runnable interface";
-        questions[5][2] = "Remote interface";
-        questions[5][3] = "Readable interface";
-        questions[5][4] = "Result interface";
+        questions[5][0] = "Which of the following is not an OOPS concept in Java?";
+        questions[5][1] = "Polymorphism";
+        questions[5][2] = "Inheritance";
+        questions[5][3] = "Compilation";
+        questions[5][4] = "Encapsulation";
         
-        questions[6][0] = "Which keyword is used for accessing the features of a package?";
-        questions[6][1] = "import";
-        questions[6][2] = "package";
-        questions[6][3] = "extends";
-        questions[6][4] = "export";
+        questions[6][0] = "Which of the following is a valid declaration of a char??";
+        questions[6][1] = "char ch = '\utea';";
+        questions[6][2] = "char ca = 'tea';";
+        questions[6][3] = "char cr = \u0223;";
+        questions[6][4] = "char cc = '\itea';";
         
         questions[7][0] = "In java, jar stands for?";
         questions[7][1] = "Java Archive Runner";
@@ -100,22 +100,22 @@ public class Quiz extends JFrame implements ActionListener {
         questions[8][3] = "java.lang.Byte";
         questions[8][4] = "java.lang.String";
         
-        questions[9][0] = "Which of the following option leads to the portability and security of Java?";
-        questions[9][1] = "Bytecode is executed by JVM";
-        questions[9][2] = "The applet makes the Java code secure and portable";
-        questions[9][3] = "Use of exception handling";
-        questions[9][4] = "Dynamic binding between objects";
+        questions[9][0] = "_____ is used to find and fix bugs in the Java programs.";
+        questions[9][1] = "JVM";
+        questions[9][2] = "JDK";
+        questions[9][3] = "JRE";
+        questions[9][4] = "JDB";
         
-        answers[0][1] = "JDB";
-        answers[1][1] = "int";
+        answers[0][1] = "James Gosling";
+        answers[1][1] = "JDK";
         answers[2][1] = "java.util package";
         answers[3][1] = "Marker Interface";
         answers[4][1] = "Heap memory";
-        answers[5][1] = "Remote interface";
-        answers[6][1] = "import";
+        answers[5][1] = "Compilation";
+        answers[6][1] = "char ch = '\utea';";
         answers[7][1] = "Java Archive";
         answers[8][1] = "java.lang.StringBuilder";
-        answers[9][1] = "Bytecode is executed by JVM";
+        answers[9][1] = "JDB";
         
         option1 = new JRadioButton();
         option1.setBounds(140, 380, 700, 30);
