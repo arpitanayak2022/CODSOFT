@@ -82,11 +82,11 @@ public class Quiz extends JFrame implements ActionListener {
         questions[5][3] = "Compilation";
         questions[5][4] = "Encapsulation";
         
-        questions[6][0] = "Which of the following is a valid declaration of a char??";
-        questions[6][1] = "char ch = '\utea';";
-        questions[6][2] = "char ca = 'tea';";
-        questions[6][3] = "char cr = \u0223;";
-        questions[6][4] = "char cc = '\itea';";
+        questions[6][0] = "Which of the following is a valid long literal?";
+        questions[6][1] = "ABH8097";
+        questions[6][2] = "L990023";
+        questions[6][3] = "904423";
+        questions[6][4] = "0xnf029L";
         
         questions[7][0] = "In java, jar stands for?";
         questions[7][1] = "Java Archive Runner";
@@ -112,7 +112,7 @@ public class Quiz extends JFrame implements ActionListener {
         answers[3][1] = "Marker Interface";
         answers[4][1] = "Heap memory";
         answers[5][1] = "Compilation";
-        answers[6][1] = "char ch = '\utea';";
+        answers[6][1] = "0xnf029L";
         answers[7][1] = "Java Archive";
         answers[8][1] = "java.lang.StringBuilder";
         answers[9][1] = "JDB";
